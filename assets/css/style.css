@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
+
+body{
+    font-size: 16px;
+    font-family: 'Quicksand', sans-serif;
+
+}
+.light{
+    background-color: #eee;
+
+}
+#nav{
+    padding-bottom: 2rem;
+}
+.my-navlink{
+    color: #262626 !important;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 1rem;
+    text-align: center;
+    
+}
+.my-navlink:hover{
+    color:#4ab049 !important;
+}
+.btn-login{
+    /* border: 1px solid #262626; */
+    padding: 5px 15px;
+    text-decoration: none;
+    color: #262626;
+    border-radius: 5px;
+}
+.btn-login:hover{
+    background-color: #4ab049;
+    color: #fff;
+    border: none;
+}
+.nav-bar{
+    width: 275px!important;
+    height: 40px;
+    display: block;
+}
+#hero{
+    padding: 3rem;
+    /* background-image: url(/assets/image/cartoon-character-freelancer-with-laptop-his-hands-flies-chair-like-rocket-innovation-startup-concept-3d-illustration_325164-1185\ \(1\).avif);
+    min-height: 90vh;
+    background-repeat: no-repeat;
+     background-size: cover; */
+}
+#hero h1{
+    font-weight: 700;
+    text-align: justify;
+    font-size: 3rem;
+    /* padding-top: 2rem; */
+}
+.design{
+    background-color: #4ab049;
+}
+.btn-search{
+    background-color: #fff;
+    position: absolute;
+    top: 15px;
+    left: 580px;
+}
+.input-search{
+    border: 1px solid #4ab049;
+    padding: 1rem;
+}
+.coding-btn{
+    text-decoration: none;
+    background-color: #4ab049;
+    color: #fff;
+    padding: 0.5rem 1rem;
+    margin-left: 6rem;
+}
+.coding-btn:hover{
+    background-color:#cbffcb;
+    color: #4ab049;
+}
+.engineering{
+    font-size: 2rem;
+    color:#262626;
+}
+.engineering:hover{
+    color: #262626;
+}
+#card{
+    padding: 5rem;
+}
+.card1{
+    background-color: rgba(255, 213, 128, 0.1);
+    border-radius: 10px;
+}
+.card1-icon{
+    color: #ffd580;
+    margin-right: 1rem;
+}
+.card-text{
+    font-size: 20px;
+    line-height: 0.5rem;
+}
+.card2{
+    background-color: rgba(0, 0, 139, 0.1);
+    border-radius: 10px;
+}
+.card2-icon{
+    color: #203354;
+    margin-right: 1rem;
+}
+.card3{
+    background-color: rgba(90, 34, 139, 0.1);
+    border-radius: 10px;
+}
+.card3-icon{
+  
+    color: #9867c5;
+    margin-right: 1rem;
+}
+.card4{
+    background-color: rgba(135, 206, 235, 0.1);
+    border-radius: 10px;
+}
+.card4-icon{
+    color: #5adeff;
+    margin-right: 1rem;
+}
+#category{
+    padding: 5rem;
+}
+h3{
+    margin-bottom: 3rem;
+}
+/* #tutorial{
+    background-color: rgba(0, 206, 0, 0.1)
+} */
+    
+
+
+.top-link{
+    background: rgba(135,206, 235,0.3);
+    border-radius: 10px;
+    color: #203354;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 20px;
+}
+#tutorial{
+    padding: 3rem;
+}
+.icon{
+    width: 5rem;
+    height: 3rem;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 3rem 3rem;
+    position: relative;
+}
+.icon-img{
+    position: absolute;
+    top: 26px;
+    left: 25px;
+    width: 3rem;
+    height:3rem;
+    
+}
+.icon-image{
+    width: 3rem;
+}
+.btn-view{
+    text-decoration: none;
+    float: right;
+    border: 1px solid #262626;
+}
+.btn-view:hover{
+    background-color: #4ab049;
+    color: #e9ecef;
+    border: none;
+}
+.image1{
+    /* background-image: url(/assets/image/annual-membership-wraps.svg); */
+    
+    background-color:  rgba(158, 163, 24, 0.3);
+    height: 310px;
+    background-size: cover;
+    position:relative;
+    border-radius: 10px;
+}
+/* .text-justify{
+    text-align: justify;
+} */
+.img1{
+   position: absolute;
+   top: 0;
+   left: 340px;
+}
+.image2{
+    background-color: rgba(94, 206, 43, 0.3);
+    height: 310px;
+    background-size: cover;
+    position:relative;
+    border-radius: 10px;
+}
+#membership{
+    padding: 3rem;
+}
+#box{
+    padding: 3rem;
+    text-align: center;
+    padding-bottom: 3rem;
+    background-image: url(/assets/image/1000_F_335018446_wjuVxZWMUDxw75dx83aYOGvPOPctTf4G.jpg);
+}
+#box p {
+    line-height: 1rem;
+}
+#box h6{
+    line-height: 0;
+}
+
+#footer{
+    /* background-color:#262626; */
+    padding: 4rem;
+    color: #fff;
+    margin-top: 3rem;
+}
+.footer-title{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    font-weight:600;
+}
+.footer-link{
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 0.5rem;
+}
+.footer-link:hover{
+    color: #4ab049;
+}
+.social-icon{
+    width: 40px;
+}
+
